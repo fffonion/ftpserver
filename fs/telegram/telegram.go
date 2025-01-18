@@ -58,10 +58,10 @@ type File struct {
 }
 
 // imageExtensions is the list of supported image extensions
-var imageExtensions = []string{".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff", ".tif"}
+var imageExtensions = []string{}
 
 // videoExtensions is the list of supported video extensions
-var videoExtensions = []string{".mp4", ".avi", ".mkv", ".mov", ".wmv", ".flv", ".webm", ".mpeg", ".mpg", ".m4v", ".3gp", ".3g2"}
+var videoExtensions = []string{}
 
 // textExtensions is the list of supported text extensions
 var textExtensions = []string{".txt", ".md"}
